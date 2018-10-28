@@ -1,0 +1,213 @@
+
+/* start reset */
+a{text-decoration:none;}
+/*end reset*/
+.wrap{
+	margin:0 auto;
+	width:80%;
+}
+p.terms{
+	float:left;
+	font-size:12px;
+	padding:15px 0 0 15px;
+}
+/*--Slider--*/
+.dg-container{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.dg-wrapper{
+	width: 481px;
+	height: 360px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 360px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+}
+.dg-wrapper a div{
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+/*end slider*/
+/*main*/
+.main{
+	margin: 3% 6%;
+	background: #161515;
+	border-radius: 5px;
+}
+/*  GRID OF Four  */
+.grid_1_of_4{
+	display: block;
+	float:left;
+	margin:2% 0% 0% 2%;
+	background: #585858;
+	background: -moz-linear-gradient(top, #585858 0%, #313131 1%, #2d2d2d 20%, #232323 70%, #1f1f1f 99%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#585858), color-stop(1%,#313131), color-stop(20%,#2d2d2d), color-stop(70%,#232323), color-stop(99%,#1f1f1f));
+	background: -webkit-linear-gradient(top, #585858 0%,#313131 1%,#2d2d2d 20%,#232323 70%,#1f1f1f 99%);
+	background: -o-linear-gradient(top, #585858 0%,#313131 1%,#2d2d2d 20%,#232323 70%,#1f1f1f 99%);
+	background: -ms-linear-gradient(top, #585858 0%,#313131 1%,#2d2d2d 20%,#232323 70%,#1f1f1f 99%);
+	background: linear-gradient(to bottom, #585858 0%,#313131 1%,#2d2d2d 20%,#232323 70%,#1f1f1f 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#585858', endColorstr='#1f1f1f',GradientType=0 );
+}
+.images_1_of_4 {
+	width: 22.333%;
+}
+.images_1_of_4  img{
+	max-width:100%;
+	display:block;
+}
+.images_1_of_4 a img:hover{
+	opacity: 0.7;
+}
+.images_1_of_4 a h3{
+	color: #B4B4B4;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.8em;
+	padding: 10px;
+	text-transform: capitalize;
+}
+.images_1_of_4 a h3:hover{
+	color: #FF3760;
+	-webkit-transition: 0.9s;
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+}
+.btm{
+	padding-bottom: 2%;
+}
+
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1;
+}
+.rightsidebar {
+	display: block;
+	float: left;
+	margin: 0% 0 0% 1.6%;
+}
+.desc {
+	display: block;
+	float: left;
+	margin: 0% 0 0% 3.6%;
+}
+.product-details{
+	margin:10px 0;
+}
+.images_3_of_2 {
+	margin-top: 1%;
+	border: 1px solid rgba(53, 50, 50, 0.5);
+	width: 26.333%;
+	float: left;
+	text-align: center;
+}
+.span_3_of_2 {
+	width: 68.2%;
+}
+.span_3_of_1 {
+	width: 25.2%;
+	padding: 1.5%;
+}
+.images_3_of_2  img {
+	max-width: 100%;
+}
+.span_3_of_2  h2 {
+	color: #969696;
+	text-transform: capitalize;
+	font-size: 1.6em;
+	font-weight: normal;
+	font-family: 'Anaheim', sans-serif;
+}
+.span_3_of_2  p{
+	font-size: 0.825em;
+	color: #777;
+	line-height: 1.8em;
+}
+.product-desc, .product-tags {
+	clear: both;
+	padding-top: 20px;
+}
+.product-desc p {
+	font-size: 0.825em;
+	color: #777;
+	line-height: 1.8em;
+	margin: 20px 0;
+}
+.product-desc p span{
+	font-weight:bold;
+}
+.product-tags h4 {
+	padding: 10px 0;
+	font-size: 0.825em;
+	color: #777;
+	font-weight: bold;
+}
+.product-tags .button {
+	margin-top: 15px;
+}
+.span_3_of_2 .button1{
+	float: right;
+}
+.product-tags .button a {
+	color: #5a5a5a;
+}
+.product-tags p{
+	font-size: 0.85em;
+	padding:5px  0;
+	color: #969696;
+	line-height: 1.8em;
+}
+
