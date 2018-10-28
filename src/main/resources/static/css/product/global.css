@@ -22,7 +22,7 @@
 	Set to display block
 */
 .slides_container a {
-	width: 248px;
+	width: 308px;
 	height:180px;
 	display:block;
 	margin: 10px;
@@ -40,23 +40,15 @@
 	display:block;
 	z-index:101;
 }
-#products .prev {
-	background:url(../images/arrow-prev.png);
-}
-
-#products .next {
-	left:350px;
-	background:url(../images/arrow-next.png);
-}
 
 /*****Pagination********/
 
 #products .pagination {
-	display: inline-block;
-	float: left;
-	border-top: 1px solid rgb(43, 40, 40);
-	padding: 3% 3% 3% 3%;
-	width: 94%;
+	/*display: inline-block;*/
+	float: right;
+	/*border-top: 1px solid rgb(43, 40, 40);
+	padding: 3% 3% 3% 3%;*/
+	width: 89%;
 }
 #products .pagination li {
 	float:left;
